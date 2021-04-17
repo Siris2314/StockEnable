@@ -1,1 +1,1 @@
-from StockFast import stockpred
+from StockFast import stock_prediction

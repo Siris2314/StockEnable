@@ -11,18 +11,12 @@ from tensorflow.keras.layers import Dense, Dropout,LSTM
 
 
 
-class stockpred:
 
 
-    def __init__(self,start_date, end_date, company):
-        self.start_date = start_date
-        self.end_date = end_date
-        self.company = company
-
-    def stock_prediction(self):
-        stock_start = self.start_date
-        stock_end = self.end_date
-        company = self.company
+def stock_prediction(start_date, end_date, company):
+        stock_start = start_date
+        stock_end = end_date
+        company = company
 
         data = web.DataReader(str(company), 'yahoo',stock_start,stock_end)
 
@@ -85,3 +79,5 @@ class stockpred:
         prediction = scalar.inverse_transform(prediction)
         
         return (f"Prediction ${prediction}")
+
+

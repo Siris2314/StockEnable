@@ -1,0 +1,1 @@
+from StockFast import stockpred

@@ -1,9 +1,9 @@
 Metadata-Version: 2.1
-Name: StockEnable
-Version: 0.0.1
+Name: StockFast
+Version: 0.0.2
 Summary: A Stock and Crypto Predictor using Neural Networks
 Home-page: UNKNOWN
-Author: Siris2314 (Arihant Tripathi)
+Author: Ari.Dev (Arihant Tripathi)
 Author-email: tarihant2001@gmail.com
 License: UNKNOWN
 Description: A package that allows users to predict closing stock prices and crypto prices, built on Neural Networks

@@ -3,20 +3,20 @@ import codecs
 import os
 
 
-VERSION = '0.0.1'
+VERSION = '0.0.2'
 DESCRIPTION = 'A Stock and Crypto Predictor using Neural Networks'
 LONG_DESCRIPTION = 'A package that allows users to predict closing stock prices and crypto prices, built on Neural Networks'
 
 # Setting up
 setup(
-    name="StockEnable",
+    name="StockFast",
     version=VERSION,
-    author="Siris2314 (Arihant Tripathi)",
+    author="Ari.Dev (Arihant Tripathi)",
     author_email="tarihant2001@gmail.com",
     description=DESCRIPTION,
     long_description_content_type="text/markdown",
     long_description=LONG_DESCRIPTION,
-    install_requires=['numpy', 'pandas', 'pandas_datareader', 'matplotlib.pyplot', 'scikitlearn', 'tensorflow'],
+    install_requires=['numpy', 'pandas', 'pandas_datareader', 'matplotlib', 'sklearn', 'tensorflow'],
     keywords=['python', 'osiris', 'stocks', 'crypto', 'neural networks', 'tensorflow'],
     classifiers=[
         "Development Status :: 1 - Planning",

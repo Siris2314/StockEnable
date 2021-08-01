@@ -9,8 +9,9 @@ Currently there are two methods implements in this package:
 
 ### stock_prediction:
 
-   Parameters: 
-     - start_date: Date to start neural network training model
+   Parameters:
+   
+     - start_date: Date to start neural network training model  
      - end_date: Date to end neural network training model
      - Company: Ticker of Company you want to predict the next closed stock price of, i.e. APPL, FB
    

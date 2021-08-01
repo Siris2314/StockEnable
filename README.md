@@ -17,12 +17,17 @@ Currently there are two methods implements in this package:
    
  ### crypto_prediction:
       
-      Parameters:
+   Parameters:
+      
         - crypto: Crypto symbol of the crypto you want the model to predict, i.e. BTC, ETH
         - world: Currency of any country you want the crypto to be converted to, i.e. USD, IND
         - start_date:  Date to start neural network training model
         - end_date: Date to end neural network training model
         - days: Span of days on which model will collect data from, the more you have the better the results may be
+        
+        
+        
+  
         
  
  

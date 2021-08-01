@@ -3,7 +3,7 @@ import codecs
 import os
 
 
-VERSION = '0.0.4'
+VERSION = '0.0.7'
 DESCRIPTION = 'A Stock and Crypto Predictor using Neural Networks'
 LONG_DESCRIPTION = 'A package that allows users to predict closing stock prices and crypto prices, built on Neural Networks'
 
@@ -18,6 +18,7 @@ setup(
     long_description=LONG_DESCRIPTION,
     install_requires=['numpy', 'pandas', 'pandas_datareader', 'matplotlib', 'sklearn', 'tensorflow'],
     keywords=['python', 'osiris', 'stocks', 'crypto', 'neural networks', 'tensorflow'],
+    package_dir={'':'StockFast'},
     classifiers=[
         "Development Status :: 1 - Planning",
         "Intended Audience :: Developers",

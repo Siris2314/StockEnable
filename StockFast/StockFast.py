@@ -155,8 +155,6 @@ def crypto_prediction(crypto, world, start_date, end_date, days):
 
 
 
-print(crypto_prediction('BTC', 'USD', dt.datetime(2016,1,1), dt.datetime(2021,1,1), 90))
-
 
 
 
